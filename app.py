@@ -63,3 +63,17 @@ print("personajes-->")
 print(type(personajes))
 for personaje in personajes:
     print("-", personaje)
+
+
+# set
+dataSet = {1, 2, 3, 2, 5, 6, 6, 7}
+print(dataSet)
+
+print(1 in dataSet)
+print(9 in dataSet)
+
+for data in dataSet:
+    print(data)
+
+dataSet.add(10)
+print(dataSet)
