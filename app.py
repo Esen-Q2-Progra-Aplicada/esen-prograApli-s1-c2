@@ -77,3 +77,22 @@ for data in dataSet:
 
 dataSet.add(10)
 print(dataSet)
+
+
+# diccionario
+
+dataDict = {"id": 1, "name": "bal", "age": 23}
+print(dataDict["id"])
+print(dataDict.keys())
+
+for key in dataDict.keys():
+    print(dataDict[key])
+
+for value in dataDict.values():
+    print(value)
+
+dataDict["name"] = "balx"
+print(dataDict)
+
+for key, value in dataDict.items():
+    print(key, value)
