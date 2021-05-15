@@ -100,3 +100,26 @@ for key, value in dataDict.items():
 dataDict["year"] = 1981
 for key, value in dataDict.items():
     print(key, value)
+
+
+# clase
+# representar una suma en un formato digital
+# 2 + 3 = 5
+# input: num1, num2 [clase tiene variables]
+# operacion: + [metodos]
+# result: result [metodos retornan resultados]
+
+
+class Operation:
+    def __init__(self, pNum1, pNum2):
+        self.num1 = pNum1
+        self.num2 = pNum2
+
+    def add(self):
+        return self.num1 + self.num2
+
+
+oper = Operation(2, 3)
+result = oper.add()
+oper = None
+print(result)
