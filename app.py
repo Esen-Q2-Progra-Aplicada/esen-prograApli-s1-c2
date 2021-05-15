@@ -41,3 +41,16 @@ print(year)
 
 for data in dataTuple:
     print(data)
+
+dataList = list(dataTuple)
+dataList.append("bal")
+dataTuple = tuple(dataList)
+id, language, year, developer = dataTuple
+
+for data in dataTuple:
+    print(data)
+
+
+# ejercicio
+dataTuple = (1, "dragonball", "japon", ("goku", "krilin"))
+# id, serie, pais, personajes, listar los personajes
