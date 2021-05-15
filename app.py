@@ -52,5 +52,14 @@ for data in dataTuple:
 
 
 # ejercicio
-dataTuple = (1, "dragonball", "japon", ("goku", "krilin"))
+dataTuple = (1, "dragonball", "japon", ["goku", "krilin"])
 # id, serie, pais, personajes, listar los personajes
+
+id, serie, pais, personajes = dataTuple
+print(id)
+print(serie)
+print(pais)
+print("personajes-->")
+print(type(personajes))
+for personaje in personajes:
+    print("-", personaje)
